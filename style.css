@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .assistant {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  #conversation {
+    height: 500px;
+    overflow-y: auto;
+    border: 3px solid #b71414;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #userInput {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #sendBtn {
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #b71414;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
